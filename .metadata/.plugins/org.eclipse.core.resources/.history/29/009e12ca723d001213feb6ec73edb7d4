@@ -9,17 +9,16 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="39dp"
+        android:layout_marginTop="63dp"
         android:text="@string/start_time"
         tools:context=".MainActivity" />
-
+    
     <EditText
-        android:id="@+id/endTimeClock"
+        android:id="@+id/startTimeClock"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/startTimeText"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="18dp"
+        android:layout_marginBottom="83dp"
         android:ems="10"
         android:inputType="time" />
 
@@ -27,32 +26,19 @@
         android:id="@+id/endTimeText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignRight="@+id/startTimeText"
-        android:layout_below="@+id/endTimeClock"
-        android:layout_marginTop="18dp"
-        android:text="@string/end_time"
-        tools:context=".MainActivity" />
-
-    <EditText
-        android:id="@+id/startTimeClock"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/endTimeClock"
-        android:layout_below="@+id/endTimeText"
-        android:layout_marginTop="18dp"
-        android:ems="10"
-        android:inputType="time" >
-
-        <requestFocus />
-    </EditText>
-
-    <Button
-        android:id="@+id/button1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/startTimeClock"
+        android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="46dp"
-        android:text="@string/calculate_breaks" />
-
+        android:layout_marginTop="63dp"
+        android:text="@string/start_time"
+        tools:context=".MainActivity" />
+    
+    <EditText
+        android:id="@+id/endTimeClock"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="83dp"
+        android:ems="10"
+        android:inputType="time" />
+    
 </RelativeLayout>
