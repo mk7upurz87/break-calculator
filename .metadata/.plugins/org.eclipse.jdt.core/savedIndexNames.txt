@@ -1,0 +1,4 @@
+INDEX VERSION 1.126+C:\Users\shaun\Documents\Break Calculator\break-calculator\.metadata\.plugins\org.eclipse.jdt.core
+2634908651.index
+52108211.index
+1299156662.index
